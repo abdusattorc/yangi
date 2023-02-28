@@ -1,0 +1,62 @@
+body #loader{
+    position: relative;
+    z-index: 1;
+    margin-top: 100px;
+}
+body #loader .img-5{
+    margin-left: 30%;
+    transform: scale(1.1);
+}
+.animate-bottom {
+    position: relative;
+    animation-name: animatebottom;
+    animation-duration: 1s
+}
+@keyframes animatebottom {
+    from{ bottom:-100px; opacity:0 }
+    to{ bottom:0; opacity:1 }
+}
+#img {
+    display: none;
+    text-align: center;
+}
+.a2{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    right: -100px;
+    top: 300px;
+    background-color: green;
+    animation-name: abs;
+    animation-iteration-count: infinite;
+    animation-duration: 1s;
+
+}
+@keyframes abs {
+    0%{
+        background-color: green;
+    }
+    50%{
+        background-color: transparent;
+        transform: scale(1.5, 1.5);
+    }
+    100%{
+        background-color: transparent;
+        transform: scale(1.5,1.5);
+    }
+}
+.a3{
+    right: -100px!important;
+    top: 300px!important;
+    position: absolute;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    background-color: green;
+
+}
+.roww{
+    position: relative;
+}
+

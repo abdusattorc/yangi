@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>lesson 1</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="img/logo.png">
+</head>
+<body onload="myFunction()">
+<div id="loader">
+    <img class="img-5" src="preloaders/7.gif" alt="">
+</div>
+<div class="container animate-bottom" id="img">
+    <div class="row">
+        <div class="col-12">
+            <nav class="navbar navbar-expand-lg navbar-light bg-white p-3">
+                <a class="navbar-brand" href="#"><img src="img/logo.png" alt=""></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="a1 collapse navbar-collapse" id="navbarSupportedContent">
+
+                    <div class="aaa offset-7">
+                            <ul class="navbar-nav">
+                                <li class="nav-item active">
+                                    <a class="nav-link text-primary ml-3" href="#">Applications <span class="sr-only">(current)</span></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-primary ml-3" href="#">Services</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link text-primary ml-3">Prices</a>
+                                </li>
+                                <li class="nav-item"><button class="btn btn-primary my-2 my-sm-0" type="submit">Log in</button></li>
+                            </ul>
+
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-8 offset-2">
+            <h1 class="text-center">All-in-one software for <br>
+                Best-in-class companies</h1>
+            <h6 class="text-center">A suite of integrated cloud buisness applications</h6>
+            <div class="col-10 offset-3"><label for="email">
+                <input class="mt-1" type="email" id="email" placeholder="Enter your Email">
+            </label>
+                <button type="button" class="btn btn-success text-white">Try for free</button></div>
+        </div>
+    </div>
+    <div class="row mt-5 roww">
+        <img src="img/page_1.png" alt="">
+        <div class="a2">
+        </div>
+        <div class="a3">
+            <img class="mt-5 offset-1" src="img/play.png" alt="">
+            <h5 class="text-center text-white mt-4">Watch our video</h5>
+        </div>
+    </div>
+    <div class="row mt-5">
+        <div class="col-4">
+            <h1 class="text-left">Essential <br> apps</h1>
+            <h6>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium alias aliquam aliquid amet aspernatur, deserunt dicta ea esse labore numquam repellat reprehenderit tenetur, ut velit?</h6>
+        </div>
+        <div class="col-8">
+            <img class="w-100" src="img/page_2.png" alt=>
+        </div>
+    </div>
+    <div class="row mt-5">
+        <div class="col-8">
+            <img class="w-100" src="img/page_3.png" alt=>
+        </div>
+        <div class="col-4">
+            <h1 class="text-left">Seamless <br> integration</h1>
+            <h6>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium alias aliquam aliquid amet aspernatur, deserunt dicta ea esse labore numquam repellat reprehenderit tenetur, ut velit?</h6>
+        </div>
+    </div>
+    <div class="row mt-5">
+        <div class="col-4">
+            <h1 class="text-left">Mobile  <br> functioality</h1>
+            <h6>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium alias aliquam aliquid amet aspernatur, deserunt dicta ea esse labore numquam repellat reprehenderit tenetur, ut velit?</h6>
+        </div>
+        <div class="col-8">
+            <img class="w-100" src="img/page_4.png" alt=>
+        </div>
+    </div>
+    <div class="row mt-5">
+        <div class="col-8">
+            <img class="w-100" src="img/page_5.png" alt=>
+        </div>
+        <div class="col-4">
+            <h1 class="text-left">Customer <br>trust</h1>
+            <h6>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium alias aliquam aliquid amet aspernatur, deserunt dicta ea esse labore numquam repellat reprehenderit tenetur, ut velit?</h6>
+        </div>
+    </div>
+    <div class="row mt-5">
+        <div class="col-4">
+            <h1 class="text-left">SaaS  <br> </h1>
+            <h6>A suit of integrated cloud buisness <br> applications</h6>
+            <label for="email1" class="mt-5">
+                <input type="email" id="email1" placeholder="Enter your Email">
+            </label>
+            <button type="button" class="btn btn-success text-white">Download free e-book</button>
+        </div>
+        <div class="col-8">
+            <iframe class="w-100" src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d5848.508298798211!2d74.5708881!3d42.8674796!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2s!4v1676110039327!5m2!1sru!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </div>
+</div>
+
+
+
+<script type="text/javascript">
+    let myVar;
+
+    function myFunction() {
+        myVar = setTimeout(showPage, 3000);
+    }
+
+    function showPage() {
+        document.getElementById("loader").style.display = "none";
+        document.getElementById("img").style.display = "block";
+    }
+</script>
+
+<script>
+    window.replainSettings = { id: '3c67cc5f-8ff1-47a6-bde2-d1a2891cb036' };
+    (function(u){var s=document.createElement('script');s.async=true;s.src=u;
+        var x=document.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);
+    })('https://widget.replain.cc/dist/client.js');
+</script>
+
+<script src="bootstrap/js/jquery-3.3.1.slim.min.js"></script>
+<script src="bootstrap/js/popper.min.js"></script>
+<script src="bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>
